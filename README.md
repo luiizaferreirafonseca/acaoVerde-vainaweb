@@ -11,7 +11,6 @@ Este projeto foi desenvolvido como parte do curso **Vai na Web**, com o objetivo
 ## 🛠️ Tecnologias utilizadas
 - **HTML**
 - **SCSS / Sass**
-- **Visual Studio Code**
 - (futuramente) **React**
 
 ## 💡 Sobre o projeto
