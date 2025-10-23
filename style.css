@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  height: 80vh;
+  text-align: center;
+  background-image: url("./assets/Banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+header p {
+  font-size: 1.5rem;
+  width: 50vw;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+header button {
+  background-color: #66BB6A;
+  color: white;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+header .box-header {
+  background: rgba(0, 0, 0, 0.4);
+  height: inherit;
+  padding: 200px 40px 40px 40px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.cards {
+  background-color: #f1f8c9;
+  padding: 80px 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 40px;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 280px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.3s ease, -webkit-box-shadow 0.3s ease;
+  transition: -webkit-transform 0.3s ease, -webkit-box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, -webkit-transform 0.3s ease, -webkit-box-shadow 0.3s ease;
+  padding-bottom: 25px;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.card h2 {
+  font-size: 1.3rem;
+  margin: 15px 0 10px 0;
+  color: #000;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #333;
+  padding: 0 15px 25px 15px;
+  line-height: 1.4;
+}
+
+.card button {
+  background-color: #66BB6A;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #5aa85c;
+}
+
+.card:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.cadastro-voluntario {
+  background-color: #e5f6e5;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.cadastro-voluntario .box-cadastro {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.cadastro-voluntario .box-cadastro h2 {
+  font-size: 1.8em;
+  color: #6A6A6A;
+  margin-bottom: 10px;
+}
+
+.cadastro-voluntario .box-cadastro p {
+  color: #4a4a4a;
+  font-size: 1.0em;
+  margin: 0 auto 40px auto;
+  line-height: 1.4;
+}
+
+.cadastro-voluntario .box-cadastro form {
+  display: block;
+}
+
+.cadastro-voluntario .box-cadastro form input[type="text"],
+.cadastro-voluntario .box-cadastro form input[type="email"],
+.cadastro-voluntario .box-cadastro form select {
+  display: block;
+  width: 100%;
+  padding: 18px 20px;
+  margin-bottom: 25px;
+  border: none;
+  border-radius: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 17px;
+  background-color: white;
+  color: #a4a3a3;
+  font-weight: 600;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  -webkit-transition: border-color 0.3s ease;
+  transition: border-color 0.3s ease;
+}
+
+.cadastro-voluntario .box-cadastro form input[type="text"]::-webkit-input-placeholder,
+.cadastro-voluntario .box-cadastro form input[type="email"]::-webkit-input-placeholder,
+.cadastro-voluntario .box-cadastro form select::-webkit-input-placeholder {
+  color: #8E8E8E;
+  font-weight: 600;
+}
+
+.cadastro-voluntario .box-cadastro form input[type="text"]:-ms-input-placeholder,
+.cadastro-voluntario .box-cadastro form input[type="email"]:-ms-input-placeholder,
+.cadastro-voluntario .box-cadastro form select:-ms-input-placeholder {
+  color: #8E8E8E;
+  font-weight: 600;
+}
+
+.cadastro-voluntario .box-cadastro form input[type="text"]::-ms-input-placeholder,
+.cadastro-voluntario .box-cadastro form input[type="email"]::-ms-input-placeholder,
+.cadastro-voluntario .box-cadastro form select::-ms-input-placeholder {
+  color: #8E8E8E;
+  font-weight: 600;
+}
+
+.cadastro-voluntario .box-cadastro form input[type="text"]::placeholder,
+.cadastro-voluntario .box-cadastro form input[type="email"]::placeholder,
+.cadastro-voluntario .box-cadastro form select::placeholder {
+  color: #8E8E8E;
+  font-weight: 600;
+}
+
+.cadastro-voluntario .box-cadastro form button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 18px 30px;
+  background-color: #66BB6A;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 19px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  margin-top: 15px;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro-voluntario .box-cadastro form button[type="submit"]:hover {
+  background-color: #5cb05c;
+}
+
+footer {
+  background-color: #66BB6A;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
