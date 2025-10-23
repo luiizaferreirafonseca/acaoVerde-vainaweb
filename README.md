@@ -6,7 +6,6 @@ Este projeto foi desenvolvido como parte do curso **Vai na Web**, com o objetivo
 - Treinar a estruturação de páginas com **HTML5**  
 - Aprimorar o design e o estilo utilizando **SCSS** e **Sass**  
 - Implementar um **formulário funcional**  
-- Desenvolver uma **página web completa e responsiva**  
 - Preparar o ambiente para uma futura migração para **React**
 
 ## 🛠️ Tecnologias utilizadas
